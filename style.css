@@ -1,0 +1,32 @@
+body {
+    font-family: 'Potta One', 'system-ui';
+}
+
+.heading {
+    width: 100%;
+    background-color: rgb(52, 168, 231) !important;
+}
+
+.note {
+    color: red;
+}
+
+.copy_right_footer {
+    line-height: 3;
+    font-weight: 900;
+    color: dodgerblue;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border: solid 2px rgb(123, 235, 98);
+}
+    
+canvas {
+    border: solid 4px royalblue ;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
